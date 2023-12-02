@@ -6,6 +6,12 @@
     --fifth-colour:#404bbf;
     --six-colour:#434455;
 }
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;}
 body{
     
      font-family: 'Raleway', sans-serif;
@@ -41,6 +47,8 @@ color:var(--fifth-colour);
 
 .list{
     list-style: none;
+    display: inline-flex;
+    
 }
 .main-header{
     font-size: 56px;
@@ -56,6 +64,7 @@ color:var(--fifth-colour);
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--second-color);
+    flex-shrink: 0;
 }
 .third-header{
     font-weight: 500;
@@ -66,6 +75,9 @@ color:var(--fifth-colour);
 }
 .first-section{
     background-color: var(--second-color);
+    flex-shrink: 0;
+    width: 1440px;
+    height: 660px;
 }
 .button{
     background-color:var(--first-color);
@@ -102,11 +114,22 @@ color: var(--third-colour);
     color: var(--first-color);
 }
 .section-four{
-    background-color: var(--four-colour)
+    background-color: var(--four-colour);
+    width: 1440px;
+    height: 732px;
+    
+
+
 
 }
 .team-members{
-    background-color: var(--third-colour);}
+    background-color: var(--third-colour);
+display: inline-flex;
+padding-bottom: 32px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 32px;}
 .address-class{
     font-style: normal;
 }
@@ -129,4 +152,46 @@ color: var(--third-colour);
 }
 .footer-element{
     background-color: var(--second-color);
+}.top-line{
+    display: flex;
+    width: 1440px;
+    height: 72px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.nav-class{
+    display:inline-flex;
+    align-items: flex-start;
+    gap: 40px
+
+}
+.logo{
+    display:inline-flex;
+    height: 24px;
+    align-items: center;
+    flex-shrink: 0;
+}
+.second-section{flex-shrink: 0;
+    width: 1128px;
+    height: 104px;
+
+
+}
+.third-section{
+    flex-shrink: 0;
+    width: 1128px;
+    height: 412px;
+}
+.inf-list{
+    display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap:8px
+}
+.img-list{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
