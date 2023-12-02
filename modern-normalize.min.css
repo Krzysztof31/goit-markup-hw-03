@@ -1,3 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;}
 .head-class{
-    
+border-bottom: 1px solid #e7e97c;
+}
+.header-elements{
+    display: flex;
+
+}
+.container{
+    width: 1158px;
+    margin: 0%;
+    padding: 0 15px;
+
+}
+.nav-class{
+display: flex;
+align-items: center;
+}
+.logo-position{
+    margin-right: 76px;
+
+}
+.header-list-position{
+    display: flex;
+    gap: 40px;
+
+}
+.link-positon{
+    padding: 24px 0px;
+
+}
+.adress-position{
+    display: flex;
+    gap: 40px
+    ;
 }
