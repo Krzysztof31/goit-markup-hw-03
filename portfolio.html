@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="modern-normalize.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
@@ -12,20 +14,20 @@
 </head>
 
 <body>
-    <header>
+    <header class="portfolio-header">
+<div class="container-portfolio portfolio-flex">
+        <nav class="portfolio-nav-position">
+            <a class="logo link portfolio-logo" href="./index.html">Web<span class="span">Studio</span></a>
 
-        <nav>
-            <a class="logo link" href="./index.html">Web<span class="span">Studio</span></a>
-
-            <ul class="list">
-                <li><a class="link-list-element link" href="./index.html">Studio</a></li>
-                <li><a class="link-list-element link" href="./portfolio.html">Portfolio</a></li>
-                <li><a class="link-list-element link" href="">Contacts</a></li>
+            <ul class="list portfolio-nav-list">
+                <li class="porfolio-list-element"><a class="link-list-element link" href="./index.html">Studio</a></li>
+                <li class="porfolio-list-element"><a class="link-list-element link" href="./portfolio.html">Portfolio</a></li>
+                <li class="porfolio-list-element"><a class="link-list-element link" href="">Contacts</a></li>
             </ul>
 
         </nav>
-        <address class="address-class">
-            <ul class="list">
+        <address class="address-class ">
+            <ul class="list portoflio-adress-position">
                 <li>
                     <a class="link link-list-element extra" href="mailto:info@devstudio.com">info@devstudio.com</a>
                 </li>
@@ -35,79 +37,90 @@
                     <a class="link link-list-element" href="tel:+110001111111">+11 (000) 111-11-11</a>
                 </li>
             </ul>
-        </address>
+        </address></div>
 
     </header>
-    <Main>
-        <section>
+    <Main><div class="container-portfolio">
+
+    
+        <section class="portfolio-section">
             <h1>text</h1>
-     <ul class="list button-list">
-                <li><button class="button-second" type="button">All</button>
+     <ul class="list button-list portfolio-button-list">
+                <li><button class="button-second button-second-position" type="button">All</button>
             
                 </li>
-                <li><button class="button-second" type="button">Web Site</button>
+                <li><button class="button-second button-second-position" type="button">Web Site</button>
                 
                 </li>
-                <li><button class="button-second"  type="button">App</button>
+                <li><button class="button-second button-second-position"  type="button">App</button>
                 
                 </li>
-                <li><button class="button-second" type="button">Design</button>
+                <li><button class="button-second button-second-position" type="button">Design</button>
 
                 </li>
-                <li><button class="button-second" type="button">Marketing</button>
+                <li><button class="button-second button-second-position" type="button">Marketing</button>
                 
                 </li>
             </ul>
-       <ul class="list">
-                <li>
+       <ul class="list portfolio-img-list">
+                <li class="portfolio-img-postion">
                     <a href="./images/img1portfolio.jpg" class="link">
                     <img src="./images/img1portfolio.jpg" alt="banking aplication" width="360">
+                    <div class="porfolio-list-element-position">
                     <h2 class="third-header">Banking App Interface Concept</h2>
-                    <p class="text-class">App</p></a>
+                    <p class="text-class">App</p></a></div>
                 </li>
-                <li>
+                <li class="portfolio-img-postion">
                     <a href="./images/img2portfolio.jpg" class="link">
                     <img src="./images/img2portfolio.jpg" alt="phone next to contactless payment device" width="360" >
+                    <div class="porfolio-list-element-position">
                     <h2 class="third-header">Cashless Payment</h2>
-                    <p class="text-class">Marketing</p></a>
+                    <p class="text-class">Marketing</p></a></div>
                 </li>
-                <li>
+                <li class="portfolio-img-postion">
                     <a href="./images/img3portfolio.jpg" class="link">
                     <img src="./images/img3portfolio.jpg" alt="laptop and phone image" width="360" >
+                    <div class="porfolio-list-element-position">
                     <h2 class="third-header">Meditation App</h2>
-                <p class="text-class">App</p></a>
+                <p class="text-class">App</p></a></div>
             </li>
-                <li>
+                <li class="portfolio-img-postion">
                     <a href="./images/img4portfolio.jpg" class="link">
                     <img src="./images/img4portfolio.jpg" alt="hands holding steering wheel during driving" width="360" >
+                    <div class="porfolio-list-element-position">
                     <h2 class="third-header">Taxi Service</h2>
-                <p class="text-class">Marketing</p></a>
+                <p class="text-class">Marketing</p></a></div>
             </li>
-                <li><a href="./images/img5portfolio.jpg" class="link">
+                <li class="portfolio-img-postion"><a href="./images/img5portfolio.jpg" class="link">
                     <img src="./images/img5portfolio.jpg" alt="phone" width="360" >
+                    <div class="porfolio-list-element-position">
                     <h2 class="third-header">Screen Illustrations</h2>
-                    <p class="text-class">Design</p></a>
+                    <p class="text-class">Design</p></a></div>
                 </li>
-                <li><a href="./images/img6portfolio.jpg" class="link">
+                <li class="portfolio-img-postion"><a href="./images/img6portfolio.jpg" class="link">
                     <img src="./images/img6portfolio.jpg" alt="happy young lady in orange sweater and looking at phone" width="360" >
+                    <div class="porfolio-list-element-position">
                     <h2 class="third-header">Online Courses</h2>
-                <p class="text-class">Marketing</p></a>
+                <p class="text-class">Marketing</p></a></div>
             </li>
-                <li><a href="./images/img7portfolio.jpg" class="link">
+                <li class="portfolio-img-postion"><a href="./images/img7portfolio.jpg" class="link">
                     <img src="./images/img7portfolio.jpg" alt="aplication" width="360" >
+                    <div class="porfolio-list-element-position">
                     <h2 class="third-header">Instagram Stories Concept</h2>
-                    <p class="text-class">Design</p></a></li>
-                <li><a href="./images/img8portfolio.jpg" class="link">
+                    <p class="text-class">Design</p></a></div></li>
+                <li class="portfolio-img-postion"><a href="./images/img8portfolio.jpg" class="link">
                     <img src="./images/img8portfolio.jpg" alt=" hand holding fruts in shoping bag" width="360" >
+                    <div class="porfolio-list-element-position">
                     <h2 class="third-header">Organic Food</h2>
-                <p class="text-class">Web Site</p></a>
+                <p class="text-class">Web Site</p></a></div>
             </li>
-                <li><a href="./images/img9portfolio.jpg" class="link">
+                <li class="portfolio-img-postion"><a href="./images/img9portfolio.jpg" class="link">
                     <img src="./images/img9portfolio.jpg" alt="cup of Coffee" width="360" >
+                    <div class="porfolio-list-element-position">
                 <h2 class="third-header">Fresh Coffee
                 </h2>
-                <p class="text-class">Web Site</p></a>
-            </li>
+                <p class="text-class">Web Site</p></a></div>
+            </li></div>
                 
 </ul>
     </section> 
