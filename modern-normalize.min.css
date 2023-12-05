@@ -215,10 +215,14 @@ align-items: center;
 }
 .portfolio-button-list{
     display: flex;
+    flex-direction: row;
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
-    /*  oststni potomek  */
+  
+}
+.portfolio-button-list:last-child{
+    margin-right: 0%;
 }
 .button-second-position{
     padding: 12px 24px;
@@ -226,10 +230,10 @@ align-items: center;
     border-radius: 4px;
 }
 .button-second-position:hover{
-    border: solid transparent;
+    border:1px solid transparent;
 
 }
-.button-second-position:active{
+.button-second-position:focus{
     border: 1px solid transparent;
 
 }
