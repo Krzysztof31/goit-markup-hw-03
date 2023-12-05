@@ -5,9 +5,18 @@
     padding: 0;
     margin: 0;}
     
-.visually-hidden:not(:focus):not(:active) {
-           /*  */
-        }
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
             
 img{
     display: block;
@@ -44,6 +53,9 @@ align-items: center;
     padding: 24px 0px 24px;
 
 }
+.adress-list{
+    display: flex;
+}
 .adress-position{
     display: flex;
     gap: 40px
@@ -79,11 +91,14 @@ align-items: center;
 .inf-list-position{
     display: flex;
     gap: 24px;
-    /* ostatni element  */
+   
 }
 .inf-list-element-position{
     width: calc((100%-72px)/4);
     display: flex;
+}
+.inf-list-position:last-child{
+    margin-right: 0%;
 }
 .third-header-position
 {
@@ -163,6 +178,7 @@ align-items: center;
 }
 .portfolio-logo{
     margin-right: 76px;
+    padding: 24px 0px;
 
 }
 .portfolio-nav-list{
