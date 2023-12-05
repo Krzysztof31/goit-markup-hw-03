@@ -189,7 +189,8 @@ align-items: center;
 .portfolio-nav-list{
     display: flex;
     gap: 40px;
-    
+flex-direction: row;
+align-items: space-between;
     /* oststni potomek */
 }
 .portfolio-list-element{
