@@ -194,7 +194,7 @@ align-items: space-between;
     /* oststni potomek */
 }
 .portfolio-list-element{
-    padding: 24px 0;
+    padding: 24px 0 24px;
 
 }
 .portfolio-list-element:last-child{
