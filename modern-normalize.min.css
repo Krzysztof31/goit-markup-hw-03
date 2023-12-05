@@ -215,8 +215,8 @@ align-items: space-between;
 }
 .portfolio-button-list{
     display: flex;
-    flex-direction: space-between;
-    justify-content: center;
+    flex-direction:row;
+    justify-content:space-between;
     gap: 24px;
     margin-bottom: 72px;
   
@@ -240,7 +240,7 @@ align-items: space-between;
 .portfolio-img-list{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content:center;
     column-gap: 24px;
     row-gap: 48px;
     /* oststni potomek */
