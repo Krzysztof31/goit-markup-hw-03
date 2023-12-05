@@ -193,8 +193,11 @@ align-items: center;
 }
 .portfolio-list-element{
     padding: 24px 0 24px;
+    display: flex;
 
 }
+.portfolio-list-element:last-child{
+    margin-right: 0%;}
 .portoflio-adress-position{
     display: flex;
     gap: 40px;
