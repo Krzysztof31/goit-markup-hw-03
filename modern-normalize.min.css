@@ -193,7 +193,7 @@ align-items: center;
 }
 .portfolio-list-element{
     padding: 24px 0 24px;
-    display: flex;
+   
 
 }
 .portfolio-list-element:last-child{
@@ -250,4 +250,7 @@ align-items: center;
 }
 .third-header{
     margin-bottom: 8px;
+}
+.list{
+    display: flex;
 }
