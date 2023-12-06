@@ -25,6 +25,7 @@ body{
     text-transform: uppercase;
     
 }
+
 .link{
     text-decoration: none;
 }
@@ -154,7 +155,3 @@ gap: 32px;}
     background-color: var(--second-color);
 }
 
-.button-colour{
-    background-color: var(--fifth-colour);
-    color: #F4F4FD;
-}
