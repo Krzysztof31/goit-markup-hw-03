@@ -168,10 +168,12 @@ gap: 48px;
     display: flex;
     gap: 24px;
 
+
 }
 .team-members-position{
     width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
+    margin-bottom: 120px;
 }
 .name{
     padding: 32px 0px;
@@ -285,6 +287,7 @@ align-items: space-between;
 }
 .button-second-position:hover{
     border:1px solid transparent;
+    background-color:#404BBF;
 
 }
 .button-second-position:focus{
