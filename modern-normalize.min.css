@@ -30,7 +30,7 @@ border-bottom: 1px solid #e7e9fc;
     display: flex;
     
     height: 72px;
-    justify-content:space-evenly;
+    justify-content:space-between;
     align-items: center;
     flex-shrink: 0;
 
@@ -208,7 +208,7 @@ gap: 48px;
     display: flex;
    
     height: 72px;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 
 }
