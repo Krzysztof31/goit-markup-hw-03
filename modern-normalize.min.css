@@ -191,6 +191,7 @@ align-items: center;
     gap: 40px;
 flex-direction: row;
 align-items: space-between;
+padding: 24px 0 24px;
     /* oststni potomek */
 }
 .portfolio-list-element{
