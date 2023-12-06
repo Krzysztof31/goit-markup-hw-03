@@ -42,7 +42,7 @@ align-items: center;
 }
 .logo-position{
     margin-right: 76px;
-    padding: 24px 0 24px;
+   
 
 }
 .header-list-position{
@@ -51,7 +51,8 @@ align-items: center;
 
 }
 .link-position{
-    padding: 24px 0px 24px;
+    padding: 24px 0;
+    display: inline-block;
 
 }
 .adress-list{
