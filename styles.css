@@ -25,6 +25,9 @@ body{
     text-transform: uppercase;
     
 }
+.link{
+    text-decoration: none;
+}
 
 
 .link-list-element{
