@@ -127,11 +127,11 @@ color: var(--third-colour);
 .team-members{
     background-color: var(--third-colour);
 display: inline-flex;
-padding-bottom: 32px;
+
 flex-direction: column;
 justify-content: center;
-align-items: center;
-gap: 32px;}
+align-items: center;}
+
 .address-class{
     font-style: normal;
 }
