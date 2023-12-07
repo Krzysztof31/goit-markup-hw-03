@@ -73,7 +73,7 @@ color:var(--fifth-colour);
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: var(--second-color);
+    color:var(--second-color)
 }
 .first-section{
     background-color: var(--second-color);
@@ -135,11 +135,8 @@ gap: 32px;}
 .address-class{
     font-style: normal;
 }
-.text-class{
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: var(--four-colour);
-}
+
+
 .text-class-extra{
     color: var(--four-colour);
 }
@@ -156,5 +153,13 @@ gap: 32px;}
 }
 .footer-element{
     background-color: var(--second-color);
+   
 }
 
+.text-class{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--six-colour)}
+    .textt-class-foter{
+            color: var(--four-colour);
+        }

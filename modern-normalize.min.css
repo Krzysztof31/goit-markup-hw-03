@@ -170,11 +170,17 @@ gap: 48px;
 
 
 }
+.employe-list-position:last-child{
+    margin-right: 0;
+}
+
+
 .team-members-position{
     width: calc((100%-72px)/4);
     border-radius: 0px 0px 4px 4px;
     
 }
+
 .name{
    
 }
@@ -199,6 +205,7 @@ gap: 48px;
 }
 .text-class-extra-position{
     max-width: 264px;
+    
      
   
 }
@@ -300,8 +307,13 @@ align-items: space-between;
     justify-content:flex-start;
     column-gap: 24px;
     row-gap: 48px;
-    /* oststni potomek */
 }
+.portfolio-img-list:nth-child(3n+3){
+    margin-right: 0;}
+.portfolio-img-list:nth-child(n+7){
+    margin-bottom: 0;
+}
+
 .portfolio-img-postion{
 width: calc((100% - 48px)/3);
 }
