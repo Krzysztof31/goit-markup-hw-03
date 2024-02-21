@@ -118,8 +118,8 @@ span{
     color: var(--ocean);
 }
 
-.header-border-bottom{
-    border-bottom: 1 px solid var(--cornflower);
+.header-section{
+    border-bottom: 1px solid var(--cornflower);
 }
 .header-elements{
     display: flex;
@@ -225,16 +225,6 @@ span{
     overflow: hidden;
 }
 
-
-.values-header{
-    font-size: 36px;
-    letter-spacing: 0.02em;
-    color: var(--navy-blue);
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-}
 .values-option{
     font-size: 20px;
     letter-spacing: 0.02em;
@@ -289,6 +279,7 @@ span{
     
 .team-images{
          background-color: var(--white);
+         border-radius: 0px 0px 4px 4px;
 }
 .team-name{
     font-size: 20px;
@@ -316,7 +307,7 @@ font-size: 16px;
 }
 .team-list-members-position{
         width: calc((100%-72px)/4);
-        border-radius: 0px 0px 4px 4px;
+        
 }
 .team-title-poistion{
     padding: 32px 0px;
@@ -336,7 +327,7 @@ font-size: 16px;
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 72px;
-    margin-top: 120px;
+    
 }
 .service{
     font-size: 20px;
@@ -344,17 +335,17 @@ font-size: 16px;
     color: var(--navy-blue);
     line-height: 1.2;
     font-weight: 500;
+    margin-bottom: 8px;
 }
 .category{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
-    margin-bottom: 8px;
+    
 }
 .portfolio-position{
-    padding-top: 120x;
-    padding-bottom: 120px;
+    padding: 120px 0px 120px 0px;
 }
 .portfolio-list-position{
     display: flex;
